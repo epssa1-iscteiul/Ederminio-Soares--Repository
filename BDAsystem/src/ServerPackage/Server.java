@@ -28,6 +28,9 @@ public class Server {
 		} catch (IOException e) {
 
 		}
+		finally {
+			System.out.println("Server desconected");
+		}
 
 	}
 
